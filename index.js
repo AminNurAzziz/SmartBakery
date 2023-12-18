@@ -38,7 +38,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, '/views'));
 
 
-mongoose.connect('mongodb+srv://bakeryb640:hEN8qmcgDT10H0UH@cluster0.fnto1ju.mongodb.net/', {
+mongoose.connect('mongodb+srv://bakeryb640:hEN8qmcgDT10H0UH@cluster0.fnto1ju.mongodb.net/versi1', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
